@@ -1,0 +1,7 @@
+pipeline:
+  - name: cleaner
+    type: TextCleaner
+  - name: generator
+    type: TextGenerator
+    params:
+      max_length: 100
